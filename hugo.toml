@@ -1,0 +1,41 @@
+baseURL = 'https://cereal-shipper.com/'
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+languageCode = 'en-us'
+title = 'Cereal Shipper'
+theme = 'gokarna'
+
+
+[params]
+  avatarAltText = "avatar"
+  avatarSize = "size-m"
+  avatarURL = "/images/avatar.png"
+
+
+  description = "Fiction writer providing behind the scene content for your entertainment."
+
+  footer = "Cereal Shipper - No copyright infringement is intended."
+  metaKeywords = ["blog", "gokarna", "creative", "hobby", "fanfiction"]
+  showBackToTopButton = true 
+
+  socialIcons = [
+    {name = "feather", url = "https://www.fanfiction.net/~cerealshipper"},
+    {name = "wattpad", url = "https://www.wattpad.com/user/cereal-shipper"},
+    {name = "email", url = "thecreativehg@gmail.com"}
+  ]
+
+[menu]
+  [[menu.main]]
+
+    name = "About Me"
+    pre = "<span data-feather='user'></span>"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "The world of Gaia"
+    pre = "<span data-feather='globe'></span>"
+    url = "/gaia-world/"
+    weight = 2
+
