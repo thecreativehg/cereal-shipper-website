@@ -10,7 +10,7 @@ theme = 'gokarna'
 [params]
   avatarAltText = "avatar"
   avatarSize = "size-m"
-  avatarURL = "/images/avatar.png"
+  avatarURL = "/cereal-shipper.github.io/images/avatar.png"
 
 
   description = "Fiction writer providing behind the scene content for your entertainment."
